@@ -3,5 +3,5 @@ function msg() {
 }
 
 function howermsg() {
-    document.append("Just click me");
+    document.write("Just click me");
 }
