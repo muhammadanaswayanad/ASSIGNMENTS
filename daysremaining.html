@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Data type</title>
+        <script type="text/javascript">
+            today = new Date();
+            var endofyear = new Date(today.getFullYear(), 11, 31);
+            var one_day = 1000 * 60 * 60 * 24;
+            document.write("<b>" + Math.ceil((endofyear.getTime() - today.getTime()) / (one_day)) + "</b> days remaining this year!");
+
+        </script>
+    </head>
+
+</html>
